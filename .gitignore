@@ -1,0 +1,8 @@
+# Ignore the bin and obj directories for all projects
+*/bin/
+*/obj/
+
+# Ignore user-specific files and directories
+.vs/
+*.suo
+*.user

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ItemGroup>
+    <ProjectReference Include="Wonga.Consumer\Wonga.Consumer.csproj"/>
+    <ProjectReference Include="Wonga.Producer\Wonga.Producer.csproj"/>
+  </ItemGroup>
+
+  <Target Name="Build">
+    <MSBuild Projects="@(ProjectReference)" Targets="Build" />
+  </Target>
+
+  <Target Name="Clean">
+    <MSBuild Projects="@(ProjectReference)" Targets="Clean" />
+  </Target>
+</Project>
