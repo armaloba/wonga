@@ -11,4 +11,7 @@
     <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
   </ItemGroup>
 
+  <Target Name="Test">
+    <Exec Command="dotnet test" />
+  </Target>
 </Project>

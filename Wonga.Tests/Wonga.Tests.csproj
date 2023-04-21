@@ -25,4 +25,9 @@
     <ProjectReference Include="..\Wonga.Consumer\Wonga.Consumer.csproj" />
     <ProjectReference Include="..\Wonga.Producer\Wonga.Producer.csproj" />
   </ItemGroup>
+
+  <Target Name="Test">
+    <Exec Command="dotnet test" />
+  </Target>
+  
 </Project>
