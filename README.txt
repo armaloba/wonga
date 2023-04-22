@@ -23,8 +23,8 @@ Running the Solution
 4. Start RabbitMQ by running one of the following commands in a terminal or command prompt:
    docker start <name or ID of your rabbitmq instance> or
    docker run -it rabbitmq:3-management
-
-5. Run the Wonga.Consumer and Wonga.Producer individually to see the communication between the producer and consumer services.
+5. Open RabbitMQ Management by navigating to http://localhost:15672/ and use guest for both usernamme and password.
+6. Run the Wonga.Consumer and Wonga.Producer projects individually to see the communication between the producer and consumer services.
 
 Running the Tests
 ==========================================
