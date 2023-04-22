@@ -6,7 +6,7 @@ Wonga.Consumer is a project that simulates a consumer that listens to a RabbitMQ
 
 Wonga.Producer is a project that simulates a producer that sends a message to a RabbitMQ message queue and prints the message to the console.
 
-Wonga.Tests is a project that contains unit tests for the Consumer and Producer projects.
+Wonga.Tests is a project that contains xUnit unit tests for the Consumer and Producer projects.
 
 Prerequisites
 =========================================
